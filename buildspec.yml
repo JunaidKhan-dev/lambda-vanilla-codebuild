@@ -11,8 +11,8 @@ phases:
   post_build:
     commands:
       - echo Post build start...
-      - echo pwd
-      - echo ls -la
+      - pwd
+      - ls -la
 artifacts:
   files:
     - '**/*'
