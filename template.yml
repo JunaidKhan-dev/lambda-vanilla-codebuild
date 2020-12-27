@@ -5,8 +5,8 @@ Resources:
   CodepipelineFunction:
     Type: 'AWS::Serverless::Function'
     Properties:
-      Handler: index.lambda_handler
-      Runtime: node 12
+      Handler: index.handler
+      Runtime: nodejs12.x
       CodeUri: ./
       Events:
         MyTimeApi:
