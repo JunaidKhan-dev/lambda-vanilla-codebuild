@@ -18,6 +18,7 @@ phases:
       - pwd
       - ls -la
 artifacts:
+  type: zip
   files:
     - template.yml
     - outputtemplate.yml
